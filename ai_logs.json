@@ -1,0 +1,74 @@
+[
+  {
+    "id": "use-case-1",
+    "name": "Customer Support Chatbot",
+    "description": "AI-powered chatbot for handling customer support queries",
+    "ai_type": "OpenAI",
+    "domains": ["Customer Service", "AI Chatbot"],
+    "industries": ["Retail", "E-commerce"],
+    "regions": ["North America", "Europe"],
+    "custom_fields": [
+      {
+        "custom_field_id": "cf1",
+        "type": "string",
+        "name": "Model Version",
+        "value": "gpt-4"
+      }
+    ],
+    "questionnaires": [
+      {
+        "name": "Risk Assessment",
+        "key": "risk_assessment",
+        "version": 1.0,
+        "sections": [
+          {
+            "id": "section1",
+            "title": "Data Privacy",
+            "questions": [
+              {
+                "id": "q1",
+                "answer": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "use-case-2",
+    "name": "Document Analysis",
+    "description": "AI system for analyzing legal documents",
+    "ai_type": "Anthropic",
+    "domains": ["Legal Tech", "Document Processing"],
+    "industries": ["Legal Services"],
+    "regions": ["Global"],
+    "custom_fields": [
+      {
+        "custom_field_id": "cf2",
+        "type": "string",
+        "name": "Model Version",
+        "value": "claude-2"
+      }
+    ],
+    "questionnaires": [
+      {
+        "name": "Compliance Check",
+        "key": "compliance_check",
+        "version": 1.0,
+        "sections": [
+          {
+            "id": "section2",
+            "title": "Data Handling",
+            "questions": [
+              {
+                "id": "q2",
+                "answer": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+] 

@@ -1,0 +1,212 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://credo.ai/use_cases.schema_1-0-0.json",
+    "title": "Use cases",
+    "description": "CredoAI use case schema, version 1.0, the initial version",
+    "oneOf": [
+        {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/use_case"
+            }
+        },
+        {
+            "$ref": "#/definitions/use_case"
+        }
+    ],
+    "definitions": {
+        "use_case": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The unique identifier of the use case"
+                },
+                "description": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "The description of the use case"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "The name of the use case"
+                },
+                "use_case_number": {
+                    "type": "string",
+                    "description": "The unique use case number"
+                },
+                "icon": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "The icon of the use case"
+                },
+                "ai_type": {
+                    "type": "string",
+                    "description": "The type of AI used in the use case"
+                },
+                "monetary_value": {
+                    "type": "integer",
+                    "description": "The monetary value of a use case"
+                },
+                "in_review": {
+                    "type": "boolean",
+                    "description": "Whether the use case is currently under review"
+                },
+                "governance_status": {
+                    "type": "integer",
+                    "description": "The governance status of the use case"
+                },
+                "domains": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "The domains of the use case"
+                },
+                "industries": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "The industries of the use case"
+                },
+                "regions": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "The regions of the use case"
+                },
+                "risk_classification_level": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "description": "The risk classification level of the use case"
+                },
+                "custom_fields": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/custom_field"
+                    },
+                    "description": "The use case custom fields"
+                },
+                "questionnaires": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/questionnaire"
+                    },
+                    "description": "The questionnaires of the use case"
+                },
+                "inserted_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The date and time when the use case was created"
+                },
+                "updated_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The date and time when the use case was last updated"
+                }
+            },
+            "additionalProperties": false
+        },
+        "custom_field": {
+            "type": "object",
+            "properties": {
+                "custom_field_id": {
+                    "type": "string",
+                    "description": "The unique UUID of the custom field"
+                },
+                "type": {
+                    "type": "string",
+                    "description": "The type of the custom field"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "The name of the custom field"
+                },
+                "value": {
+                    "type": [
+                        "boolean",
+                        "number",
+                        "string",
+                        "null"
+                    ],
+                    "description": "The value of the custom field"
+                }
+            },
+            "additionalProperties": false
+        },
+        "questionnaire": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of the questionnaire"
+                },
+                "key": {
+                    "type": "string",
+                    "description": "The unique key of the questionnaire"
+                },
+                "version": {
+                    "type": "number",
+                    "description": "The version of the questionnaire"
+                },
+                "sections": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/section"
+                    },
+                    "description": "The sections of the questionnaire"
+                }
+            },
+            "additionalProperties": false
+        },
+        "section": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The unique UUID of the section"
+                },
+                "title": {
+                    "type": "string",
+                    "description": "The title of the section"
+                },
+                "questions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/question"
+                    },
+                    "description": "The questions of the section"
+                }
+            },
+            "additionalProperties": false
+        },
+        "question": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The unique UUID of the question"
+                },
+                "answer": {
+                    "type": [
+                        "boolean",
+                        "number",
+                        "string",
+                        "object",
+                        "null"
+                    ],
+                    "description": "The answer of the question"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

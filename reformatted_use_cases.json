@@ -1,0 +1,101 @@
+[
+    {
+        "id": "b59cb642-54d2-4a93-9455-160e705450bd",
+        "name": "generate legal contract",
+        "description": "legal and compliance",
+        "ai_type": "SurePath AI",
+        "governance_status": 2,
+        "domains": [],
+        "industries": [
+            "legal and compliance"
+        ],
+        "regions": [],
+        "risk_category_level": null,
+        "custom_fields": [
+            {
+                "custom_field_id": "user_001",
+                "name": "User Name",
+                "value": "Maria Dyer"
+            },
+            {
+                "custom_field_id": "email_001",
+                "name": "User Email",
+                "value": "maria.dyer@lucidway.io"
+            },
+            {
+                "custom_field_id": "ip_001",
+                "name": "Client IP",
+                "value": "172.68.3.48:19814"
+            }
+        ],
+        "questionnaires": [],
+        "inserted_at": "2024-12-16T22:29:29.128000Z",
+        "updated_at": "2024-12-16T22:29:30.117000Z"
+    },
+    {
+        "id": "b3c20217-9d83-4d49-8d33-3d6bf9baa845",
+        "name": "analyze resume",
+        "description": "human resources",
+        "ai_type": "SurePath AI",
+        "governance_status": 1,
+        "domains": [],
+        "industries": [
+            "human resources"
+        ],
+        "regions": [],
+        "risk_category_level": null,
+        "custom_fields": [
+            {
+                "custom_field_id": "user_001",
+                "name": "User Name",
+                "value": "Maria Dyer"
+            },
+            {
+                "custom_field_id": "email_001",
+                "name": "User Email",
+                "value": "maria.dyer@lucidway.io"
+            },
+            {
+                "custom_field_id": "ip_001",
+                "name": "Client IP",
+                "value": "172.68.35.96:57952"
+            }
+        ],
+        "questionnaires": [],
+        "inserted_at": "2024-12-16T22:28:06.991000Z",
+        "updated_at": "2024-12-16T22:28:17.173000Z"
+    },
+    {
+        "id": "34ea7c35-f941-4842-b614-cee8cb5bdee6",
+        "name": "Unknown Use Case",
+        "description": "No description",
+        "ai_type": "Gemini",
+        "governance_status": 0,
+        "domains": [],
+        "industries": [
+            "General"
+        ],
+        "regions": [],
+        "risk_category_level": null,
+        "custom_fields": [
+            {
+                "custom_field_id": "user_001",
+                "name": "User Name",
+                "value": "Maria Dyer"
+            },
+            {
+                "custom_field_id": "email_001",
+                "name": "User Email",
+                "value": "maria.dyer@lucidway.io"
+            },
+            {
+                "custom_field_id": "ip_001",
+                "name": "Client IP",
+                "value": "76.130.79.239:60700"
+            }
+        ],
+        "questionnaires": [],
+        "inserted_at": "2024-12-16T22:27:24.131000Z",
+        "updated_at": "2024-12-16T22:27:24.142000Z"
+    }
+]

@@ -1,0 +1,366 @@
+{
+    "data": {
+        "items": [
+            {
+                "name": "Basic AI Use Case With ShadowAI Source",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "ChatGPT for Email Summary",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Document Summarization",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "Automated Meeting Transcription & Notes",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Assisted Data Analysis",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "Smart Email Drafting & Response Suggestions",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 3,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Based Presentation & Report Generation",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Customer Support Assistance",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Assisted Code Writing & Debugging",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "Automated Task Prioritization & Workflow Suggestions",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Driven Market Research & Competitive Analysis",
+                "description": "A minimal example use case.",
+                "ai_type": "traditional_ml",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Knowledge Search & Retrieval",
+                "description": "A minimal example use case.",
+                "ai_type": "traditional_ml",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "Automated Legal & Compliance Review",
+                "description": "A minimal example use case.",
+                "ai_type": "traditional_ml",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Assisted Financial Forecasting",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Chat & Collaboration Assistance",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Driven Language Translation",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Personalized Learning & Training",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Assisted Social Media Content Creation",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 3,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Inventory & Supply Chain Optimization",
+                "description": "A minimal example use case.",
+                "ai_type": "traditional_ml",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 2,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            },
+            {
+                "name": "AI-Powered Cybersecurity Monitoring",
+                "description": "A minimal example use case.",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                    "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                    "value": "ShadowAI"
+                    }
+
+                ],
+                "questionnaires": []
+            }
+        ]
+    }
+}

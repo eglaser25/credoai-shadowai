@@ -1,0 +1,26 @@
+{
+  "use_cases": [
+    {
+      "name": "Customer Support Chatbot",
+      "description": "AI-powered chatbot for handling customer support queries",
+      "ai_type": "gen_ai",
+      "governance_status": 1,
+      "domains": [],
+      "industries": [],
+      "regions": [],
+      "risk_classification_level": 1,
+      "questionnaires": []
+    },
+    {
+      "name": "Document Analysis",
+      "description": "AI system for analyzing legal documents",
+      "ai_type": "gen_ai",
+      "governance_status": 1,
+      "domains": [],
+      "industries": [],
+      "regions": [],
+      "risk_classification_level": 1,
+      "questionnaires": []
+    }
+  ]
+}

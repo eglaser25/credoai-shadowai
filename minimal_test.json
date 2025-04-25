@@ -1,0 +1,23 @@
+{
+    "data": {
+        "items": [
+            {
+                "name": "Test Use Case - 20240314-001",
+                "description": "Test description",
+                "ai_type": "gen_ai",
+                "governance_status": 1,
+                "domains": [],
+                "industries": [],
+                "regions": [],
+                "risk_classification_level": 1,
+                "custom_fields": [
+                    {
+                        "custom_field_id": "dDWtfWDZAL6fFmMKpppHLE",
+                        "value": "ShadowAI"
+                    }
+                ],
+                "questionnaires": []
+            }
+        ]
+    }
+} 

@@ -1,0 +1,5 @@
+2024-03-18 20:00:00 - User: john.doe@example.com - Action: API call to OpenAI - Endpoint: /v1/chat/completions - Model: gpt-4
+2024-03-18 20:01:15 - User: jane.smith@example.com - Action: API call to Anthropic - Endpoint: /v1/messages - Model: claude-3-opus
+2024-03-18 20:02:30 - User: bob.wilson@example.com - Action: API call to OpenAI - Endpoint: /v1/embeddings - Model: text-embedding-3-small
+2024-03-18 20:03:45 - User: alice.johnson@example.com - Action: API call to Anthropic - Endpoint: /v1/messages - Model: claude-3-sonnet
+2024-03-18 20:04:00 - User: charlie.brown@example.com - Action: API call to OpenAI - Endpoint: /v1/images/generations - Model: dall-e-3 
